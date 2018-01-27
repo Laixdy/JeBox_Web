@@ -1,0 +1,36 @@
+/* Colores Porsia txt:#EFEAE1 norm:#BA3525 hover:#F74631 acti:#8E281C */
+
+	.boton_descargar{
+		display: inline-block;
+		margin-top: 40px;
+		margin-left: 523px;
+		padding: 0.8em 1.2em;
+		color: #EFEAE1;
+		font-size: 16px;
+    	font-weight: 400;
+    	text-decoration: none;
+    	border-radius: 5px;
+    	background: #BA3525;
+	}
+	.boton_descargar:hover {
+		background: #F74631;
+		animation-name: btn;
+		animation-duration: .6s;
+		animation-fill-mode: fowards;
+	}
+	.boton_descargar:active {
+		background: #8E281C;
+		transform: scale(1.2);
+		transform: translate(0px, 3px);	
+	}
+@keyframes btn {
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}

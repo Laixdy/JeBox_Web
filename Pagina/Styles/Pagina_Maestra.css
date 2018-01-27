@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "https://fonts.googleapis.com/css?family=Roboto&effect=3d";
+
+@media screen {
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+	body {
+		background: linear-gradient(to left, #00FFFF, #F9E504);
+		color: #FFFFFF;
+		font-family: Roboto;	
+	}
+	nav {
+		background: #FFFFFF;
+		height: 50px;
+	}
+	li {
+		display: inline-block;
+		margin-top: 11px;
+		margin-left: 18px;
+		list-style: none;
+	}
+	li a {
+		color: #000000;
+		font-weight: 300;
+		text-decoration: none;
+		font-size: 20px;
+	}
+	li a:hover {
+		color: #0E28EB;
+	}
+	h1.font-effect-3d{
+		font-family: 'Roboto';
+	}
+}
