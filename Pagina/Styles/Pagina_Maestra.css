@@ -28,9 +28,30 @@
 		font-size: 20px;
 	}
 	li a:hover {
-		color: #0E28EB;
+		animation-name: gradiente;
+		animation-duration: 1s;
+		animation-direction: alternate-reverse;
+		animation-iteration-count: infinite;
 	}
 	h1.font-effect-3d{
 		font-family: 'Roboto';
+	}
+	/* Animaciones */
+	@keyframes gradiente {
+		0%{
+			color: #000000;
+		}
+		25%{
+			color: #13EC27;
+		}
+		50%{
+			color: #EC1111;
+		}
+		75%{
+			color: #EFE70E;
+		}
+		100%{
+			color: #0E28EB;
+		}
 	}
 }
